@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: "Crimson Text", serif;
+}
+
+.file-input {
+  opacity: 80;
+  font-size: 10;
+}
+
+
+.myprofile{
+  position: relative;
+  
+}
+
+.myprofile-inner{
+  position: absolute;
+  right: 0;
+}
+
+
+.productInputBorder{
+  border: 1px solid gray;
+}
+
+.productDetailBorder{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.imagescontainer::-webkit-scrollbar{
+  height: 5px;
+  background-color: gray;
+}
+
+.imagescontainer::-webkit-scrollbar-track{
+  background-color: gray;
+}
+
+.imagescontainer::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 5px;
+}
+
+
+.customtable{
+  font-family: "Poppins", sans-serif !important;
+}
+
+@keyframes blink {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+.loading-card {
+  animation: blink 1s infinite ease-in-out;
+}
+
+.scroll-css{
+  scroll-behavior: smooth;
+}
+
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.shipping-address-container {
+  position: relative;
+  margin-top: 5px; /* Add space between header and map */
+  z-index: 1; /* Ensure proper stacking context */
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden; /* Prevent overflow issues */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  z-index: 0; /* Lower than header */
+}
+
+header {
+  position: relative;
+  z-index: 10; /* Ensure header is above */
+  background: white; /* Ensure header visibility */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}

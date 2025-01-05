@@ -1,0 +1,68 @@
+  {
+    "categories": [
+      {
+        "category": "Men",
+        "subcategories": [
+          {
+            "subcategory": "Casual Dresses",
+            "items": ["T-Shirts", "Shirts", "Jeans", "Chinos", "Shorts"]
+          },
+          {
+            "subcategory": "Formal Dresses",
+            "items": ["Suits", "Blazers", "Dress Shirts", "Trousers"]
+          },
+          {
+            "subcategory": "Traditional Dresses",
+            "items": ["Sherwanis", "Kurta-Pajamas", "Jodhpuri Suits", "Dhoti-Kurtas"]
+          },
+          {
+            "subcategory": "Boutique Collection",
+            "items": ["Custom Suits", "Tailored Shirts", "Designer Jackets", "Leather Shoes"]
+          }
+        ]
+      },
+      {
+        "category": "Women",
+        "subcategories": [
+          {
+            "subcategory": "Casual Dresses",
+            "items": ["Tops", "Jeans", "Casual Dresses", "Skirts", "Jumpsuits"]
+          },
+          {
+            "subcategory": "Formal Dresses",
+            "items": ["Blazers", "Formal Dresses", "Pencil Skirts", "Suits"]
+          },
+          {
+            "subcategory": "Ethnic Dresses",
+            "items": ["Sarees", "Lehengas", "Salwar Suits", "Kurtis"]
+          },
+          {
+            "subcategory": "Boutique Collection",
+            "items": ["Designer Gowns", "Handcrafted Jewelry", "Luxury Bags", "Tailored Dresses"]
+          }
+        ]
+      },
+      {
+        "category": "Kids",
+        "subcategories": [
+          {
+            "subcategory": "Casual Dresses",
+            "items": ["T-Shirts", "Shorts", "Jeans", "Dresses", "Dungarees"]
+          },
+          {
+            "subcategory": "Party Dresses",
+            "items": ["Gowns", "Suits", "Party Skirts", "Shirts"]
+          },
+          {
+            "subcategory": "Traditional Dresses",
+            "items": ["Lehengas", "Sherwanis", "Kurta-Pajamas", "Frocks"]
+          },
+          {
+            "subcategory": "Boutique Collection",
+            "items": ["Custom Dresses", "Designer Kidswear", "Luxury Accessories", "Handcrafted Footwear"]
+          }
+        ]
+      }
+    ]
+  }
+  
